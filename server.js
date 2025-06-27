@@ -9,7 +9,7 @@ server.listen(8080,function(){
 })
 
 server.on('request',function(req,res){
-    console.log(666);
-    res.write('8888');
-    res.end();
+    console.log(666)
+    res.write('你好，世界！')
+    res.end()
 })
